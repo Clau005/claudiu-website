@@ -1,0 +1,56 @@
+{
+  "label": "Homepage Hero",
+  "category": "home",
+  "icon": "🏠",
+  "schema": {
+    "hero_image": { "type": "image", "label": "Hero Image" },
+    "hero_title": { "type": "text", "label": "Hero Title" },
+    "hero_subtitle": { "type": "textarea", "label": "Hero Subtitle" },
+    "hero_button_text": { "type": "text", "label": "Hero Button Text" },
+    "hero_button_url": { "type": "url", "label": "Hero Button URL" },
+
+    "collections_title": { "type": "text", "label": "Collections Title" },
+    "collections_subtitle": { "type": "textarea", "label": "Collections Subtitle" },
+
+    "collection_1_title": { "type": "text", "label": "Collection 1 Title" },
+    "collection_1_url": { "type": "url", "label": "Collection 1 URL" },
+    "collection_1_image": { "type": "image", "label": "Collection 1 Image" },
+    "collection_1_description": { "type": "textarea", "label": "Collection 1 Description" },
+    "collection_1_button_text": { "type": "text", "label": "Collection 1 Button Text" },
+
+    "collection_2_title": { "type": "text", "label": "Collection 2 Title" },
+    "collection_2_url": { "type": "url", "label": "Collection 2 URL" },
+    "collection_2_image": { "type": "image", "label": "Collection 2 Image" },
+    "collection_2_description": { "type": "textarea", "label": "Collection 2 Description" },
+    "collection_2_button_text": { "type": "text", "label": "Collection 2 Button Text" },
+
+    "featured_title": { "type": "text", "label": "Featured Products Title" },
+    "featured_subtitle": { "type": "textarea", "label": "Featured Products Subtitle" },
+    "featured_products_limit": { "type": "number", "label": "Number of Featured Products", "min": 1, "max": 12 },
+    "featured_button_text": { "type": "text", "label": "Featured Button Text" },
+    "featured_button_url": { "type": "url", "label": "Featured Button URL" },
+
+    "value_1_title": { "type": "text", "label": "Value 1 Title" },
+    "value_1_description": { "type": "textarea", "label": "Value 1 Description" },
+    "value_2_title": { "type": "text", "label": "Value 2 Title" },
+    "value_2_description": { "type": "textarea", "label": "Value 2 Description" },
+    "value_3_title": { "type": "text", "label": "Value 3 Title" },
+    "value_3_description": { "type": "textarea", "label": "Value 3 Description" }
+  },
+  "defaults": {
+    "hero_title": "Create your haven at home",
+    "hero_subtitle": "Soft tones, natural textures, and thoughtfully curated collections.",
+    "hero_button_text": "Shop the collection",
+    "hero_button_url": "/collections",
+
+    "collections_title": "Featured collections",
+    "collections_subtitle": "Explore spaces curated by our designers.",
+
+    "featured_title": "Featured products",
+    "featured_subtitle": "Handpicked favorites from our latest arrivals.",
+    "featured_products_limit": 4,
+
+    "featured_button_text": "View all products",
+    "featured_button_url": "/catalog"
+  }
+}

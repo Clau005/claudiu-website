@@ -1,0 +1,19 @@
+{
+  "label": "Text Content",
+  "category": "content",
+  "icon": "📝",
+  "schema": {
+    "heading": {
+      "type": "text",
+      "label": "Heading"
+    },
+    "content": {
+      "type": "textarea",
+      "label": "Content"
+    }
+  },
+  "defaults": {
+    "heading": "About Us",
+    "content": "We are a company dedicated to providing the best products."
+  }
+}

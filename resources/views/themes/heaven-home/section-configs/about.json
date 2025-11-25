@@ -1,0 +1,50 @@
+{
+  "label": "About Page",
+  "category": "page",
+  "icon": "ℹ️",
+  "schema": {
+    "hero_image": { "type": "image", "label": "Hero Image" },
+    "page_title": { "type": "text", "label": "Page Title" },
+    "page_subtitle": { "type": "textarea", "label": "Page Subtitle" },
+
+    "story_title": { "type": "text", "label": "Story Title" },
+    "story_content": { "type": "textarea", "label": "Story Content", "rows": 8 },
+
+    "section_image": { "type": "image", "label": "Section Image" },
+    "section_title": { "type": "text", "label": "Section Title" },
+    "section_content": { "type": "textarea", "label": "Section Content", "rows": 6 },
+
+    "values_title": { "type": "text", "label": "Values Section Title" },
+    "value_1_icon": { "type": "text", "label": "Value 1 Icon (emoji)" },
+    "value_1_title": { "type": "text", "label": "Value 1 Title" },
+    "value_1_description": { "type": "textarea", "label": "Value 1 Description" },
+    "value_2_icon": { "type": "text", "label": "Value 2 Icon (emoji)" },
+    "value_2_title": { "type": "text", "label": "Value 2 Title" },
+    "value_2_description": { "type": "textarea", "label": "Value 2 Description" },
+    "value_3_icon": { "type": "text", "label": "Value 3 Icon (emoji)" },
+    "value_3_title": { "type": "text", "label": "Value 3 Title" },
+    "value_3_description": { "type": "textarea", "label": "Value 3 Description" },
+
+    "show_team": { "type": "boolean", "label": "Show Team Section" },
+    "team_title": { "type": "text", "label": "Team Section Title" },
+    "team_1_image": { "type": "image", "label": "Team Member 1 Image" },
+    "team_1_name": { "type": "text", "label": "Team Member 1 Name" },
+    "team_1_role": { "type": "text", "label": "Team Member 1 Role" },
+    "team_1_bio": { "type": "textarea", "label": "Team Member 1 Bio" },
+    "team_2_image": { "type": "image", "label": "Team Member 2 Image" },
+    "team_2_name": { "type": "text", "label": "Team Member 2 Name" },
+    "team_2_role": { "type": "text", "label": "Team Member 2 Role" },
+    "team_2_bio": { "type": "textarea", "label": "Team Member 2 Bio" },
+    "team_3_image": { "type": "image", "label": "Team Member 3 Image" },
+    "team_3_name": { "type": "text", "label": "Team Member 3 Name" },
+    "team_3_role": { "type": "text", "label": "Team Member 3 Role" },
+    "team_3_bio": { "type": "textarea", "label": "Team Member 3 Bio" }
+  },
+  "defaults": {
+    "page_title": "About Us",
+    "page_subtitle": "Discover our story and what makes us unique",
+    "story_title": "Our Story",
+    "values_title": "Our Values",
+    "team_title": "Meet Our Team"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "label": "Footer",
+  "category": "layout",
+  "icon": "🦶",
+  "schema": {
+    "copyright": {
+      "type": "text",
+      "label": "Copyright Text"
+    }
+  },
+  "defaults": {
+    "copyright": "© 2024 Your Company. All rights reserved."
+  }
+}

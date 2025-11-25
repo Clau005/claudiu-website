@@ -107,6 +107,7 @@ class VisualEditorServiceProvider extends ServiceProvider
             $this->commands([
                 \ElevateCommerce\VisualEditor\Console\Commands\SyncThemesCommand::class,
                 \ElevateCommerce\VisualEditor\Console\Commands\OptimizeExistingImages::class,
+                \ElevateCommerce\VisualEditor\Console\Commands\CreateAdminCommand::class,
             ]);
         }
     }

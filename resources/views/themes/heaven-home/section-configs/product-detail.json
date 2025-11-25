@@ -1,0 +1,89 @@
+{
+  "label": "Product Detail",
+  "category": "catalog",
+  "icon": "📦",
+  "schema": {
+    "layout": {
+      "type": "select",
+      "label": "Layout Style",
+      "options": [
+        { "value": "side-by-side", "label": "Side by Side" },
+        { "value": "stacked", "label": "Stacked" }
+      ],
+      "default": "side-by-side"
+    },
+    "image_position": {
+      "type": "select",
+      "label": "Image Position",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "left"
+    },
+    "show_breadcrumbs": {
+      "type": "checkbox",
+      "label": "Show Breadcrumbs",
+      "default": true
+    },
+    "show_category": {
+      "type": "checkbox",
+      "label": "Show Category",
+      "default": true
+    },
+    "show_sku": {
+      "type": "checkbox",
+      "label": "Show SKU",
+      "default": true
+    },
+    "show_stock_status": {
+      "type": "checkbox",
+      "label": "Show Stock Status",
+      "default": true
+    },
+    "show_shipping_info": {
+      "type": "checkbox",
+      "label": "Show Shipping Info",
+      "default": true
+    },
+    "show_return_policy": {
+      "type": "checkbox",
+      "label": "Show Return Policy",
+      "default": true
+    },
+    "enable_quantity_selector": {
+      "type": "checkbox",
+      "label": "Enable Quantity Selector",
+      "default": true
+    },
+    "related_products_title": {
+      "type": "text",
+      "label": "Related Products Title",
+      "default": "You May Also Like"
+    },
+    "show_related_products": {
+      "type": "checkbox",
+      "label": "Show Related Products",
+      "default": true
+    },
+    "related_products_count": {
+      "type": "number",
+      "label": "Related Products Count",
+      "default": 4
+    }
+  },
+  "defaults": {
+    "layout": "side-by-side",
+    "image_position": "left",
+    "show_breadcrumbs": true,
+    "show_category": true,
+    "show_sku": true,
+    "show_stock_status": true,
+    "show_shipping_info": true,
+    "show_return_policy": true,
+    "enable_quantity_selector": true,
+    "related_products_title": "You May Also Like",
+    "show_related_products": true,
+    "related_products_count": 4
+  }
+}

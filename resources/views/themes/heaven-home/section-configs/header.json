@@ -1,0 +1,15 @@
+{
+  "label": "Header",
+  "category": "layout",
+  "icon": "📌",
+  "schema": {
+    "logo_text": {
+      "type": "text",
+      "label": "Logo Text",
+      "default": "Haven Home"
+    }
+  },
+  "defaults": {
+    "logo_text": "Haven Home"
+  }
+}

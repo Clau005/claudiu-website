@@ -1,0 +1,48 @@
+{
+  "label": "Contact Page",
+  "category": "page",
+  "icon": "✉️",
+  "schema": {
+    "page_title": { "type": "text", "label": "Page Title" },
+    "page_subtitle": { "type": "textarea", "label": "Page Subtitle" },
+
+    "contact_intro": { "type": "textarea", "label": "Contact Introduction" },
+    "show_contact_info": { "type": "boolean", "label": "Show Contact Information" },
+    "contact_email": { "type": "email", "label": "Email Address" },
+    "contact_phone": { "type": "text", "label": "Phone Number" },
+    "contact_address": { "type": "textarea", "label": "Physical Address" },
+    "contact_hours": { "type": "textarea", "label": "Business Hours" },
+
+    "form_title": { "type": "text", "label": "Form Title" },
+    "form_subtitle": { "type": "textarea", "label": "Form Subtitle" },
+    "show_name": { "type": "boolean", "label": "Show Name Field" },
+    "show_email": { "type": "boolean", "label": "Show Email Field" },
+    "show_phone": { "type": "boolean", "label": "Show Phone Field" },
+    "show_company": { "type": "boolean", "label": "Show Company Field" },
+    "show_subject": { "type": "boolean", "label": "Show Subject Field" },
+    "show_message": { "type": "boolean", "label": "Show Message Field" },
+    "show_type": { "type": "boolean", "label": "Show Inquiry Type Dropdown" },
+    "button_text": { "type": "text", "label": "Submit Button Text" },
+    "success_message": { "type": "textarea", "label": "Success Message" },
+
+    "show_map": { "type": "boolean", "label": "Show Map" },
+    "map_embed": { "type": "textarea", "label": "Map Embed Code (iframe)", "rows": 4 }
+  },
+  "defaults": {
+    "page_title": "Contact Us",
+    "page_subtitle": "We'd love to hear from you",
+    "contact_intro": "Have a question or want to work together? Send us a message and we'll get back to you as soon as possible.",
+    "show_contact_info": true,
+    "form_title": "Send us a message",
+    "form_subtitle": "Fill out the form below and we'll respond within 24 hours.",
+    "show_name": true,
+    "show_email": true,
+    "show_phone": true,
+    "show_company": false,
+    "show_subject": true,
+    "show_message": true,
+    "show_type": false,
+    "button_text": "Send Message",
+    "success_message": "Thank you for your message! We'll get back to you soon."
+  }
+}

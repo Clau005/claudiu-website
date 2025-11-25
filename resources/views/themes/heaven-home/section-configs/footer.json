@@ -1,0 +1,27 @@
+{
+  "label": "Footer",
+  "category": "layout",
+  "icon": "🦶",
+  "schema": {
+    "brand_name": {
+      "type": "text",
+      "label": "Brand Name",
+      "default": "Haven Home"
+    },
+    "brand_tagline": {
+      "type": "textarea",
+      "label": "Brand Tagline",
+      "default": "Curating beautiful spaces with timeless pieces for modern living."
+    },
+    "copyright": {
+      "type": "text",
+      "label": "Copyright Text",
+      "default": "All rights reserved."
+    }
+  },
+  "defaults": {
+    "brand_name": "Haven Home",
+    "brand_tagline": "Curating beautiful spaces with timeless pieces for modern living.",
+    "copyright": "All rights reserved."
+  }
+}

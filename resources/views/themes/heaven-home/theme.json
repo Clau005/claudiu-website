@@ -1,0 +1,14 @@
+{
+  "name": "Heaven Home",
+  "slug": "heaven-home",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "description": "A light, airy home theme inspired by calm, heavenly aesthetics.",
+  "preview_image": "/themes/heaven-home/preview.jpg",
+  "settings": {
+    "primary_color": "#60A5FA",
+    "secondary_color": "#FBBF24",
+    "background_color": "#F9FAFB",
+    "font_family": "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+  }
+}

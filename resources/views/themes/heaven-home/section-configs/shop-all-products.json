@@ -1,0 +1,57 @@
+{
+  "label": "Shop All Products",
+  "category": "catalog",
+  "icon": "🛍️",
+  "schema": {
+    "title": {
+      "type": "text",
+      "label": "Page Title",
+      "default": "Shop All"
+    },
+    "subtitle": {
+      "type": "textarea",
+      "label": "Page Subtitle",
+      "default": "Browse our complete collection of curated home decor and furniture pieces."
+    },
+    "background_color": {
+      "type": "text",
+      "label": "Header Background Color",
+      "default": "#f7f4f0"
+    },
+    "show_category_filter": {
+      "type": "checkbox",
+      "label": "Show Category Filter",
+      "default": true
+    },
+    "products_per_page": {
+      "type": "number",
+      "label": "Products Per Page",
+      "default": 12
+    },
+    "products_per_row": {
+      "type": "number",
+      "label": "Products Per Row (Desktop)",
+      "default": 4
+    },
+    "show_out_of_stock": {
+      "type": "checkbox",
+      "label": "Show Out of Stock Products",
+      "default": true
+    },
+    "sort_options": {
+      "type": "checkbox",
+      "label": "Enable Sorting Options",
+      "default": true
+    }
+  },
+  "defaults": {
+    "title": "Shop All",
+    "subtitle": "Browse our complete collection of curated home decor and furniture pieces.",
+    "background_color": "#f7f4f0",
+    "show_category_filter": true,
+    "products_per_page": 12,
+    "products_per_row": 4,
+    "show_out_of_stock": true,
+    "sort_options": true
+  }
+}
