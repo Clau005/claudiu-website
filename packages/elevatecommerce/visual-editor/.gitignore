@@ -1,0 +1,9 @@
+/node_modules
+/public/build
+/public/hot
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+composer.lock
+package-lock.json
