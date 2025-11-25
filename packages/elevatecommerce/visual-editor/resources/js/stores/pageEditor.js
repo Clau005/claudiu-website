@@ -2,6 +2,19 @@ import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
 import axios from 'axios'
 
+// Polyfill for crypto.randomUUID (for older browsers or non-secure contexts)
+function generateUUID() {
+    if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') {
+        return crypto.randomUUID()
+    }
+    // Fallback UUID generation
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        const r = Math.random() * 16 | 0
+        const v = c === 'x' ? r : (r & 0x3 | 0x8)
+        return v.toString(16)
+    })
+}
+
 export const usePageEditorStore = defineStore('pageEditor', () => {
     // State
     const page = ref(null)
@@ -119,7 +132,7 @@ export const usePageEditorStore = defineStore('pageEditor', () => {
 
     function addSection(sectionKey, group = 'template', position = null) {
         const newSection = {
-            id: crypto.randomUUID(),
+            id: generateUUID(),
             key: sectionKey,
             group: group,
             settings: getDefaultSettings(sectionKey)

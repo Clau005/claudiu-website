@@ -52,6 +52,13 @@
     {{-- Vite Assets (Tailwind CSS + JS) --}}
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     
+    {{-- Alpine.js for interactive components --}}
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    
+    <style>
+        [x-cloak] { display: none !important; }
+    </style>
+    
     @if(isset($theme->settings['custom_css']))
         <style>{!! $theme->settings['custom_css'] !!}</style>
     @endif
@@ -64,15 +71,14 @@
             <strong>Preview Mode</strong> - This is how your page will look when published
         </div>
     @endif
+    {{-- Header Sections (Fixed/Absolute positioning) --}}
+    @foreach($headerSections as $section)
+        <div data-section-id="{{ $section['id'] }}" data-section-key="{{ $section['key'] }}" data-section-group="header">
+            {!! $section['html'] !!}
+        </div>
+    @endforeach
+
     <div class="flex flex-col min-h-screen">
-
-        {{-- Header Sections --}}
-        @foreach($headerSections as $section)
-            <div data-section-id="{{ $section['id'] }}" data-section-key="{{ $section['key'] }}" data-section-group="header" class="sticky top-0 z-50">
-                {!! $section['html'] !!}
-            </div>
-        @endforeach
-
         <main class="flex-1">
             {{-- Template Sections --}}
             @foreach($templateSections as $section)

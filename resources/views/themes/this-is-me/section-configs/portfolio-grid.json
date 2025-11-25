@@ -1,0 +1,86 @@
+{
+  "label": "Portfolio Grid - Project Showcase",
+  "category": "portfolio",
+  "icon": "💼",
+  "schema": {
+    "section_title": {
+      "type": "text",
+      "label": "Section Title",
+      "default": "Featured Projects"
+    },
+    "section_subtitle": {
+      "type": "textarea",
+      "label": "Section Subtitle",
+      "default": "A selection of projects that showcase my skills and passion for building great software."
+    },
+    "layout": {
+      "type": "select",
+      "label": "Grid Layout",
+      "options": {
+        "2-col": "2 Columns",
+        "3-col": "3 Columns",
+        "masonry": "Masonry Grid"
+      },
+      "default": "3-col"
+    },
+    "show_filters": {
+      "type": "boolean",
+      "label": "Show Category Filters",
+      "default": true
+    },
+    "filter_categories": {
+      "type": "textarea",
+      "label": "Filter Categories (one per line)",
+      "default": "All\nWeb Apps\nPlatforms\nAPIs\nOpen Source"
+    },
+    "projects_source": {
+      "type": "select",
+      "label": "Projects Source",
+      "options": {
+        "manual": "Manual Configuration",
+        "database": "From Database (Products tagged 'portfolio')"
+      },
+      "default": "database"
+    },
+    "projects_limit": {
+      "type": "number",
+      "label": "Number of Projects to Show",
+      "min": 3,
+      "max": 24,
+      "default": 6
+    },
+    "show_view_all": {
+      "type": "boolean",
+      "label": "Show 'View All Projects' Button",
+      "default": true
+    },
+    "view_all_url": {
+      "type": "url",
+      "label": "View All Projects URL",
+      "default": "/portfolio"
+    },
+    "card_style": {
+      "type": "select",
+      "label": "Card Style",
+      "options": {
+        "modern": "Modern with Hover Effects",
+        "minimal": "Minimal Clean",
+        "glassmorphism": "Glassmorphism"
+      },
+      "default": "modern"
+    }
+  },
+  "defaults": {
+    "section_title": "Featured Projects",
+    "section_subtitle": "A selection of projects that showcase my skills and passion for building great software.",
+    "layout": "3-col",
+    "show_filters": true,
+    "filter_categories": "All\nWeb Apps\nPlatforms\nAPIs\nOpen Source",
+    "projects_source": "database",
+    "projects_limit": 6,
+    "show_view_all": true,
+    "view_all_url": "/portfolio",
+    "card_style": "modern"
+  }
+}
+

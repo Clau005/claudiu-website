@@ -1,0 +1,159 @@
+{
+  "label": "Platform Showcase - The Kicker!",
+  "category": "showcase",
+  "icon": "⚡",
+  "schema": {
+    "eyebrow_text": {
+      "type": "text",
+      "label": "Eyebrow Text",
+      "default": "Built with my own platform"
+    },
+    "main_title": {
+      "type": "text",
+      "label": "Main Title",
+      "default": "This Website Runs on Visual Editor"
+    },
+    "subtitle": {
+      "type": "textarea",
+      "label": "Subtitle",
+      "default": "A powerful, Laravel-based CMS platform I built from scratch. Everything you see here - from the dynamic sections to the responsive images - is powered by my custom platform."
+    },
+    "platform_name": {
+      "type": "text",
+      "label": "Platform Name",
+      "default": "Visual Editor"
+    },
+    "platform_tagline": {
+      "type": "text",
+      "label": "Platform Tagline",
+      "default": "Build beautiful websites without limits"
+    },
+    "show_features": {
+      "type": "boolean",
+      "label": "Show Feature List",
+      "default": true
+    },
+    "feature_1_icon": {
+      "type": "text",
+      "label": "Feature 1 Icon (emoji)",
+      "default": "🎨"
+    },
+    "feature_1_title": {
+      "type": "text",
+      "label": "Feature 1 Title",
+      "default": "Theme System"
+    },
+    "feature_1_description": {
+      "type": "textarea",
+      "label": "Feature 1 Description",
+      "default": "Modular theme architecture with JSON-driven sections"
+    },
+    "feature_2_icon": {
+      "type": "text",
+      "label": "Feature 2 Icon (emoji)",
+      "default": "⚡"
+    },
+    "feature_2_title": {
+      "type": "text",
+      "label": "Feature 2 Title",
+      "default": "Performance"
+    },
+    "feature_2_description": {
+      "type": "textarea",
+      "label": "Feature 2 Description",
+      "default": "Optimized images, caching, and lazy loading built-in"
+    },
+    "feature_3_icon": {
+      "type": "text",
+      "label": "Feature 3 Icon (emoji)",
+      "default": "🔧"
+    },
+    "feature_3_title": {
+      "type": "text",
+      "label": "Feature 3 Title",
+      "default": "Extensible"
+    },
+    "feature_3_description": {
+      "type": "textarea",
+      "label": "Feature 3 Description",
+      "default": "Built on Laravel with Vue.js for maximum flexibility"
+    },
+    "feature_4_icon": {
+      "type": "text",
+      "label": "Feature 4 Icon (emoji)",
+      "default": "📱"
+    },
+    "feature_4_title": {
+      "type": "text",
+      "label": "Feature 4 Title",
+      "default": "Responsive"
+    },
+    "feature_4_description": {
+      "type": "textarea",
+      "label": "Feature 4 Description",
+      "default": "Mobile-first design with automatic image optimization"
+    },
+    "show_tech_stack": {
+      "type": "boolean",
+      "label": "Show Tech Stack",
+      "default": true
+    },
+    "tech_stack": {
+      "type": "textarea",
+      "label": "Tech Stack (one per line)",
+      "default": "Laravel 11\nVue.js 3\nTailwind CSS\nMySQL\nRedis\nAlpine.js"
+    },
+    "cta_text": {
+      "type": "text",
+      "label": "CTA Button Text",
+      "default": "Learn More About Visual Editor"
+    },
+    "cta_url": {
+      "type": "url",
+      "label": "CTA Button URL",
+      "default": "#contact"
+    },
+    "show_code_snippet": {
+      "type": "boolean",
+      "label": "Show Code Snippet Preview",
+      "default": true
+    },
+    "background_style": {
+      "type": "select",
+      "label": "Background Style",
+      "options": {
+        "gradient": "Gradient",
+        "solid": "Solid",
+        "pattern": "Pattern"
+      },
+      "default": "gradient"
+    }
+  },
+  "defaults": {
+    "eyebrow_text": "Built with my own platform",
+    "main_title": "This Website Runs on Visual Editor",
+    "subtitle": "A powerful, Laravel-based CMS platform I built from scratch. Everything you see here - from the dynamic sections to the responsive images - is powered by my custom platform.",
+    "platform_name": "Visual Editor",
+    "platform_tagline": "Build beautiful websites without limits",
+    "show_features": true,
+    "feature_1_icon": "🎨",
+    "feature_1_title": "Theme System",
+    "feature_1_description": "Modular theme architecture with JSON-driven sections",
+    "feature_2_icon": "⚡",
+    "feature_2_title": "Performance",
+    "feature_2_description": "Optimized images, caching, and lazy loading built-in",
+    "feature_3_icon": "🔧",
+    "feature_3_title": "Extensible",
+    "feature_3_description": "Built on Laravel with Vue.js for maximum flexibility",
+    "feature_4_icon": "📱",
+    "feature_4_title": "Responsive",
+    "feature_4_description": "Mobile-first design with automatic image optimization",
+    "show_tech_stack": true,
+    "tech_stack": "Laravel 11\nVue.js 3\nTailwind CSS\nMySQL\nRedis\nAlpine.js",
+    "cta_text": "Learn More About Visual Editor",
+    "cta_url": "#contact",
+    "show_code_snippet": true,
+    "background_style": "gradient"
+  }
+}
+

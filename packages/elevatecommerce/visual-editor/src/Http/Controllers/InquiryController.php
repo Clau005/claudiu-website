@@ -80,6 +80,6 @@ class InquiryController extends Controller
 
         return redirect()
             ->back()
-            ->with('success', 'Thank you for your inquiry! We will get back to you soon.');
+            ->with('success', 'Thank you for your inquiry! I will get back to you soon.');
     }
 }

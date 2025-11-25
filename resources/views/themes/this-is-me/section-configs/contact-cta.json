@@ -1,0 +1,76 @@
+{
+  "label": "Contact Call-to-Action",
+  "category": "contact",
+  "icon": "📧",
+  "schema": {
+    "title": {
+      "type": "text",
+      "label": "Title",
+      "default": "Let's Work Together"
+    },
+    "subtitle": {
+      "type": "textarea",
+      "label": "Subtitle",
+      "default": "I'm always interested in hearing about new opportunities and exciting projects."
+    },
+    "email": {
+      "type": "text",
+      "label": "Email Address",
+      "default": "hello@claudiubardan.com"
+    },
+    "phone": {
+      "type": "text",
+      "label": "Phone Number (optional)"
+    },
+    "show_contact_form": {
+      "type": "boolean",
+      "label": "Show Contact Form",
+      "default": true
+    },
+    "cta_primary_text": {
+      "type": "text",
+      "label": "Primary CTA Text",
+      "default": "Send Message"
+    },
+    "cta_secondary_text": {
+      "type": "text",
+      "label": "Secondary CTA Text",
+      "default": "Download Resume"
+    },
+    "resume_url": {
+      "type": "url",
+      "label": "Resume URL"
+    },
+    "linkedin_url": {
+      "type": "url",
+      "label": "LinkedIn URL"
+    },
+    "github_url": {
+      "type": "url",
+      "label": "GitHub URL"
+    },
+    "twitter_url": {
+      "type": "url",
+      "label": "Twitter/X URL"
+    },
+    "background_style": {
+      "type": "select",
+      "label": "Background Style",
+      "options": {
+        "gradient": "Gradient",
+        "solid": "Solid Dark"
+      },
+      "default": "gradient"
+    }
+  },
+  "defaults": {
+    "title": "Let's Work Together",
+    "subtitle": "I'm always interested in hearing about new opportunities and exciting projects.",
+    "email": "hello@claudiubardan.com",
+    "show_contact_form": true,
+    "cta_primary_text": "Send Message",
+    "cta_secondary_text": "Download Resume",
+    "background_style": "gradient"
+  }
+}
+

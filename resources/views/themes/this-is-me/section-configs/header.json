@@ -1,0 +1,49 @@
+{
+  "label": "Header Navigation",
+  "category": "layout",
+  "icon": "🧭",
+  "schema": {
+    "logo_text": {
+      "type": "text",
+      "label": "Logo Text",
+      "default": "CB"
+    },
+    "logo_image": {
+      "type": "image",
+      "label": "Logo Image (optional)"
+    },
+    "nav_style": {
+      "type": "select",
+      "label": "Navigation Style",
+      "options": {
+        "transparent": "Transparent",
+        "solid": "Solid",
+        "blur": "Blur Effect"
+      },
+      "default": "blur"
+    },
+    "show_cta": {
+      "type": "boolean",
+      "label": "Show CTA Button",
+      "default": true
+    },
+    "cta_text": {
+      "type": "text",
+      "label": "CTA Button Text",
+      "default": "Get In Touch"
+    },
+    "cta_url": {
+      "type": "url",
+      "label": "CTA Button URL",
+      "default": "#contact"
+    }
+  },
+  "defaults": {
+    "logo_text": "CB",
+    "nav_style": "blur",
+    "show_cta": true,
+    "cta_text": "Get In Touch",
+    "cta_url": "#contact"
+  }
+}
+

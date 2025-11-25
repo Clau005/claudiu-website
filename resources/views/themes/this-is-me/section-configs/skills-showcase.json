@@ -1,0 +1,63 @@
+{
+  "label": "Skills Showcase",
+  "category": "about",
+  "icon": "🛠️",
+  "schema": {
+    "section_title": {
+      "type": "text",
+      "label": "Section Title",
+      "default": "Skills & Expertise"
+    },
+    "section_subtitle": {
+      "type": "textarea",
+      "label": "Section Subtitle",
+      "default": "Technologies and tools I work with to bring ideas to life."
+    },
+    "layout_style": {
+      "type": "select",
+      "label": "Layout Style",
+      "options": {
+        "grid": "Grid Layout",
+        "categories": "Categorized",
+        "progress-bars": "Progress Bars"
+      },
+      "default": "categories"
+    },
+    "show_proficiency": {
+      "type": "boolean",
+      "label": "Show Proficiency Levels",
+      "default": true
+    },
+    "frontend_skills": {
+      "type": "textarea",
+      "label": "Frontend Skills (one per line, format: Name|Level)",
+      "default": "Vue.js|95\nReact|85\nTailwind CSS|98\nAlpine.js|90\nJavaScript|95"
+    },
+    "backend_skills": {
+      "type": "textarea",
+      "label": "Backend Skills (one per line, format: Name|Level)",
+      "default": "Laravel|98\nPHP|95\nNode.js|80\nMySQL|90\nRedis|85"
+    },
+    "tools_skills": {
+      "type": "textarea",
+      "label": "Tools & DevOps (one per line, format: Name|Level)",
+      "default": "Git|95\nDocker|85\nAWS|75\nCI/CD|80\nLinux|90"
+    },
+    "other_skills": {
+      "type": "textarea",
+      "label": "Other Skills (one per line, format: Name|Level)",
+      "default": "API Design|95\nDatabase Design|92\nSystem Architecture|88\nTesting|85"
+    }
+  },
+  "defaults": {
+    "section_title": "Skills & Expertise",
+    "section_subtitle": "Technologies and tools I work with to bring ideas to life.",
+    "layout_style": "categories",
+    "show_proficiency": true,
+    "frontend_skills": "Vue.js|95\nReact|85\nTailwind CSS|98\nAlpine.js|90\nJavaScript|95",
+    "backend_skills": "Laravel|98\nPHP|95\nNode.js|80\nMySQL|90\nRedis|85",
+    "tools_skills": "Git|95\nDocker|85\nAWS|75\nCI/CD|80\nLinux|90",
+    "other_skills": "API Design|95\nDatabase Design|92\nSystem Architecture|88\nTesting|85"
+  }
+}
+

@@ -1,0 +1,88 @@
+{
+  "label": "Hero - Animated Introduction",
+  "category": "hero",
+  "icon": "🚀",
+  "schema": {
+    "greeting": {
+      "type": "text",
+      "label": "Greeting",
+      "default": "Hi, I'm"
+    },
+    "name": {
+      "type": "text",
+      "label": "Your Name",
+      "required": true,
+      "default": "Claudiu Bardan"
+    },
+    "tagline": {
+      "type": "text",
+      "label": "Tagline",
+      "default": "Full-Stack Developer & Platform Architect"
+    },
+    "animated_roles": {
+      "type": "textarea",
+      "label": "Animated Roles (one per line)",
+      "default": "Laravel Expert\nVue.js Developer\nPlatform Builder\nProblem Solver"
+    },
+    "description": {
+      "type": "textarea",
+      "label": "Description",
+      "maxlength": 300,
+      "default": "I build scalable platforms and elegant solutions. Currently crafting the Visual Editor - a powerful CMS platform that powers this very website."
+    },
+    "profile_image": {
+      "type": "image",
+      "label": "Profile Image"
+    },
+    "cta_primary_text": {
+      "type": "text",
+      "label": "Primary CTA Text",
+      "default": "View My Work"
+    },
+    "cta_primary_url": {
+      "type": "url",
+      "label": "Primary CTA URL",
+      "default": "#portfolio"
+    },
+    "cta_secondary_text": {
+      "type": "text",
+      "label": "Secondary CTA Text",
+      "default": "Get In Touch"
+    },
+    "cta_secondary_url": {
+      "type": "url",
+      "label": "Secondary CTA URL",
+      "default": "#contact"
+    },
+    "show_scroll_indicator": {
+      "type": "boolean",
+      "label": "Show Scroll Indicator",
+      "default": true
+    },
+    "background_gradient": {
+      "type": "select",
+      "label": "Background Style",
+      "options": {
+        "gradient-1": "Purple to Pink",
+        "gradient-2": "Blue to Teal",
+        "gradient-3": "Dark Mesh",
+        "solid": "Solid Dark"
+      },
+      "default": "gradient-3"
+    }
+  },
+  "defaults": {
+    "greeting": "Hi, I'm",
+    "name": "Claudiu Bardan",
+    "tagline": "Full-Stack Developer & Platform Architect",
+    "animated_roles": "Laravel Expert\nVue.js Developer\nPlatform Builder\nProblem Solver",
+    "description": "I build scalable platforms and elegant solutions. Currently crafting the Visual Editor - a powerful CMS platform that powers this very website.",
+    "cta_primary_text": "View My Work",
+    "cta_primary_url": "#portfolio",
+    "cta_secondary_text": "Get In Touch",
+    "cta_secondary_url": "#contact",
+    "show_scroll_indicator": true,
+    "background_gradient": "gradient-3"
+  }
+}
+

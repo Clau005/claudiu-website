@@ -1,0 +1,18 @@
+{
+  "name": "This Is Me",
+  "slug": "this-is-me",
+  "version": "1.0.0",
+  "author": "Claudiu Bardan",
+  "description": "A professional portfolio theme designed to impress recruiters and showcase both your work and the platform you built. Modern, clean, and professional.",
+  "preview_image": "/themes/this-is-me/preview.jpg",
+  "settings": {
+    "primary_color": "#3B82F6",
+    "secondary_color": "#1E40AF",
+    "accent_color": "#0EA5E9",
+    "background_color": "#0F172A",
+    "text_color": "#F8FAFC",
+    "font_family": "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+    "heading_font": "'Space Grotesk', sans-serif"
+  }
+}
+
