@@ -110,7 +110,7 @@
                 {{-- Contact Form --}}
                 @if($settings->show_contact_form ?? true)
                     <div class="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10" id="contact-form">
-                        <h3 class="text-2xl font-bold text-white mb-6">Send a Message</h3>
+                        <h3 class="text-2xl font-bold text-white mb-6">Send me a message</h3>
                         
                         @if(session('success'))
                             <div class="mb-6 p-4 bg-green-500/20 border border-green-500/50 rounded-lg text-green-100 animate-slide-in-fade"
